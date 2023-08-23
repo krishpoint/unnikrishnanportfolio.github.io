@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 100;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+a:link {
+    color: rgb(136, 137, 136);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(136, 137, 136);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(251, 251, 251);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#education {
+    border: 1px solid #ffffff;
+}
+
+#edu{
+    padding: 10px;
+
+}
+
+#skills{
+    border: 1px solid #ffffff;
+}
+
+#listskill{
+    list-style: none;
+}
+
+#certifications {
+    border: 1px solid #ffffff;
+    align-content: center;
+        padding: 0em;
+        margin-bottom: 0em;
+}
+
+#cert {
+    text-align: center;
+        padding: 60px;    
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    border: 10px solid #ddd;
+    
+        border-radius: 50px;
+        padding: auto;
+        width: 300px;
+        border-spacing:50px;
+        height: 300px;
+}
+
+.imgcert{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    padding: 2em;
+}
+
+#projects {
+    border-top: 1px solid #ffffff;
+    padding: 1em;
+}
+
+#projectlist{
+    list-style: none;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+#about {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+#experinces{
+    border: 1px solid #ffffff;
+}
+
+footer {
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
